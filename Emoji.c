@@ -7,28 +7,29 @@ int main()
    scanf("%c",&q);
    scanf("%d",&x);
    y=abs((q-64)-x);
+  
     if(q%2==0)
     {
         if(y<10)
         {
             if(y%5!=0)
             {
-            printf("{@_@} ");
+            printf("{@_@}");
             }
             else
             {
-              printf("\\{@_@} /");
+              printf("\\{@_@}/");
             }
         }
         else if(y>9&&y<21)
         {
              if(y%5!=0)
             {
-            printf("{*v*} ");
+            printf("{*v*}");
             }
              else
             {
-              printf("\\{*v*} /");
+              printf("\\{*v*}/");
             }
         }
         else if(y>20)
@@ -49,33 +50,33 @@ int main()
         {
         if(y%5!=0)
             {
-            printf("{x_x} ");
+            printf("(^_^) ");
             }
              else
             {
-              printf("\\{x_x}/");
+              printf("\\(^_^)/");
             }
         }
         else if(y>9&&y<21)
         {
             if(y%5!=0)
             {
-            printf("(T_T)");
+            printf("{*v*}");
             }
             else
             {
-              printf("\\(T_T)/");
+              printf("\\{*v*}/");
             }
         }
         else if(y>20)
         {
             if(y%5!=0)
             {
-            printf("{@_@}");
+            printf("(T_T)");
             }
              else
             {
-              printf("\\{@_@}/");
+              printf("\\(T_T)/");
             }
         }
     }
