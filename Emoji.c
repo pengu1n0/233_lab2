@@ -7,7 +7,7 @@ int main()
    scanf("%d",&x);
    y=abs((q-64)-x);
   
-    if(q%2==0)
+    if(x%2==0)
     {
         if(y<10)
         {
@@ -43,7 +43,7 @@ int main()
             }
         }
     }
-    else if (q%2!=0)
+    else if (x%2!=0)
     {
         if(y<10)
         {
@@ -60,11 +60,11 @@ int main()
         {
             if(y%5!=0)
             {
-            printf("{*v*}");
+            printf("(*o*)");
             }
             else
             {
-              printf("\\{*v*}/");
+              printf("\\(*o*)/");
             }
         }
         else if(y>20)
