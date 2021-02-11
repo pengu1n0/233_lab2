@@ -9,7 +9,7 @@ int main()
   
     if(x%2==0)
     {
-        if(y<10)
+        if(y<74)
         {
             if(y%5!=0)
             {
@@ -20,7 +20,7 @@ int main()
               printf("\\{@_@}/");
             }
         }
-        else if(y>9&&y<21)
+        else if(y>73&&y<85)
         {
              if(y%5!=0)
             {
@@ -31,7 +31,7 @@ int main()
               printf("\\{*v*}/");
             }
         }
-        else if(y>20)
+        else if(y>84)
         {
              if(y%5!=0)
             {
@@ -56,7 +56,7 @@ int main()
               printf("\\(^_^)/");
             }
         }
-        else if(y>9&&y<21)
+        else if(y>73&&y<85)
         {
             if(y%5!=0)
             {
@@ -67,7 +67,7 @@ int main()
               printf("\\(*o*)/");
             }
         }
-        else if(y>20)
+        else if(y>84)
         {
             if(y%5!=0)
             {
